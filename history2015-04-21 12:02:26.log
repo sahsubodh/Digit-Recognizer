@@ -1,0 +1,20 @@
+============== 
+Classification started...  2015-04-21 12:02:26
+Reading training data...  2015-04-21 12:02:26
+Reading testing data...  2015-04-21 12:02:37
+Selecting features... 
+Crossvalidation started...  2015-04-21 12:02:46
+Number of features used... 708 2015-04-21 12:02:49
+Number of features ignored... 76 2015-04-21 12:02:49
+Grid search for... SVM 2015-04-21 12:02:55
+Best configuration: {'kernel': 'poly', 'degree': 2}0.975857142857 2015-04-21 12:49:26
+Grid search for... RandomForest 2015-04-21 12:49:26
+Best configuration: {'n_estimators': 1000}0.966619047619 2015-04-21 13:11:48
+Grid search for... kNN 2015-04-21 13:11:48
+Best configuration: {'n_neighbors': 3}0.96669047619 2015-04-21 15:39:15
+Considering classifier... {'kernel': 'poly', 'degree': 2} 2015-04-21 15:39:15
+Considering classifier... {'n_estimators': 1000} 2015-04-21 15:39:15
+Considering classifier... {'n_neighbors': 3} 2015-04-21 15:39:15
+Best classifier... {'kernel': 'poly', 'degree': 2} 2015-04-21 15:39:15
+Building model...  2015-04-21 15:39:15
+Making predictions...  2015-04-21 15:42:20
